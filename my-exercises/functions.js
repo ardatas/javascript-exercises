@@ -38,7 +38,7 @@ function lastletter (text ='') {
 
 
     // return text.slice(-1);
-    // retunr text[text.length -1]
+    // return text[text.length -1];
 }
 console.log(lastletter('LDBDLSNds'));
 console.log(lastletter('fdsjfd(20'));
