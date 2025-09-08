@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            padding-top: 15%;
+        }
+        .container {
+            padding: 0px;
+            margin: 0px;
+            display: flex; 
+            flex-direction: column;
+        }
+
+        .container>div {
+            width: 200px;
+            height: auto;
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            
+        }
+
+        .container>div>p {
+            font-size: 20px ;
+        }
+
+        .tooltip {
+            background: rgba(207, 200, 7, 0.3);
+            border: none;
+            padding: 10px;
+            pointer-events: none;
+        }
+
+        .tooltiptext {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class='info-container' id="one">
+            <p>Container One</p>
+        </div>
+        <div class='info-container' id="two">
+            <p>Container Two</p>
+        </div>
+        <div class='info-container' id="three">
+            <p>Container Three</p>
+        </div>  
+    </div>
+</body>
+</html>
